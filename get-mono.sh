@@ -11,7 +11,7 @@ if [ -z "$1" ]
 then
     echo No local mono directory supplied. Cloning mono from Github. This may take a while...
     echo You can provide a local mono checkout using: $0 \<path-to-mono-git-repository\>
-    MONO_GIT=git://github.com/mono/mono.git
+    MONO_GIT=https://github.com/mono/mono.git
 else
     MONO_GIT=$1/.git
 fi
